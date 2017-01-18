@@ -32,12 +32,7 @@ a {
     align-items: center;
 }
 
-#signature {
-  background-color: transparent;
-  border: none;
-}
-
-#links {
+.signature {
   background-color: transparent;
   border: none;
 }
