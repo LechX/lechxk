@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %} Projects - {% endblock %}
+
+{% block content %}
+  <div class="samples" id="projectBackground"><h1 class="projectTitle">Projects</h1><p class="projectDescriptionHold">Hover over a project to learn more!</p></div>
+  <a href="{% url 'tiles' %}"><div class="samples" id="tilesProject"><h1 class="projectTitle">TILES</h1><p class="projectDescription">randomly-generated pattern (using JavaScript) that mimics something I used to doodle in my marginalia.</p></div></a>
+  <div class="samples" id="crabGrab"><h1 class="projectTitle">Crabbing Guide (WIP)</h1><p class="projectDescription">Recreational guide and forecasting tool for the crabbing enthusiast, built with Django.</p></div>
+  <a href="{% url 'birthday' %}" target="_blank"><div class="samples" id="numbers"><h1 class="projectTitle">Birthday Pi</h1><p class="projectDescription">Find the nth digit in pi that corresponds to your birthday (less fun for people born 3/1/41 or 3/14/15), calculated with Python (and help from MIT).</p></div></a>
+  <div class="samples" id="books"><h1 class="projectTitle">Web Magazine (WIP)</h1><p class="projectDescription">More details coming soon!</p></div>
+  <div class="samples" id="train"><h1 class="projectTitle">TriMet Alerts (WIP)</h1><p class="projectDescription">Dynamic webpage for those looking to optimize their transit trips.</p></div>
+  <div class="samples" id="moreToCome"><h1 class="projectTitle">More to come!</h1><p class="projectDescriptionHold">Check back often and please do not hesitate to submit thoughts, comments, and/or ideas!</p></div>
+{% endblock %}
