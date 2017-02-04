@@ -1,1 +1,3 @@
-config.py
+db.sqlite3
+*/__pycache__
+keyconfig.py
