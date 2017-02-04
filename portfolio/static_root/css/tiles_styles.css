@@ -1,0 +1,60 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    background-color: whitesmoke;
+    border: solid 2px darkslategray;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    color: darkslategray;
+    font-size: 24px;
+    background-color: none;
+}
+
+#container {
+    background-color: #ADD8E6;
+    height: 100vh;
+    width: 100vw;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signature {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+}
+
+#copyright {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #006600;
+  padding: 10px;
+  background: #ababab;
+  border: solid 2px #006600;
+  border-radius: 10px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.25em;
+  margin: 20px;
+}
+
+#redo {
+  color: #006600;
+  padding: 10px;
+  background: #ababab;
+  border: solid 2px #006600;
+  border-radius: 10px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.25em;
+  margin: 20px;
+}

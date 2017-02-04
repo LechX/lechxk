@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+}
+
+#nav {
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+  background-image: url("../img/main_background.jpg");
+  left: 0;
+  width: 100%;
+}
+
+#content {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: auto;
+  color: #ababab;
+}
+
+#jumbotron {
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.samples {
+  margin: 15px;
+  padding: 10px;
+  height: 200px;
+  width: 250px;
+  border: solid 4px #006600;
+  border-radius: 10px;
+  text-align: center;
+  background: yellow;
+}
+
+.projectTitle {
+  font-family: 'Ubuntu', sans-serif;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.projectDescriptionHold {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lora', serif;
+  background: rgba(67, 67, 67, 0.8);
+  width: 250px;
+  height: 110px;
+  color: white;
+  border-radius: 10px;
+}
+
+.projectDescription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lora', serif;
+  background: transparent;
+  width: 250px;
+  height: 110px;
+  color: transparent;
+  border-radius: 10px;
+}
+
+.projectDescription:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lora', serif;
+  width: 250px;
+  height: 110px;
+  background: rgba(67, 67, 67, 0.8);
+  color: white;
+  border-radius: 10px;
+}
+
+h1 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+p {
+  color: white;
+  margin: 0;
+}
+
+#projectBackground {
+  background-image: url("../img/pexels-photo.jpg");
+  border: solid 4px #ababab;
+}
+
+#tilesProject {
+  background-image: url("../img/tiles1.png");
+}
+
+#moreToCome {
+  background-image: url("../img/gravel.jpg");
+  border: solid 4px #ababab;
+}
+
+#crabGrab {
+  background-image: url("../img/crab.jpg");
+}
+
+#numbers {
+  background-image: url("../img/numbers.jpg");
+}
+
+#books {
+  background-image: url("../img/books.jpg");
+}
+
+#train {
+  background-image: url("../img/train.jpg");
+}
+
+.profileBlurb {
+  padding: 5px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  font-family: 'Lora', serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background: sandybrown;
+}
+
+.profileTitle {
+  padding: 5px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 20px;
+  background: #60b0f4;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#footer {
+  height: 5vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url("../img/main_background.jpg");
+  left: 0;
+  width: 100%;}
+
+#footer p {
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  padding-right: 10px;
+  margin: 0;
+}
+
+#email {
+  color: black;
+  padding: 50px;
+}
+
+#copyright {
+  background-color: transparent;
+}
+
+#contactInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#githubIcon {
+  color: #006600;
+  padding: 40px;
+}
+
+#linkedInIcon {
+  color: #006600;
+  padding: 40px;
+}
+
+#angelListIcon {
+  color: #006600;
+  padding: 40px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.25em;
+  height: 2em;
+  width: 7em;
+  border: solid 2px #006600;
+  border-radius: 10px;
+  background: #ababab;
+}
+
+a {
+  text-decoration: none;
+  color: #006600;
+}
