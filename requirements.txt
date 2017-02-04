@@ -1,0 +1,6 @@
+Django=1.10.5
+olefile
+Pillow
+pip
+pkg-resources
+setuptools
