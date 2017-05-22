@@ -10,21 +10,6 @@ def index(request):
     return render(request, 'index_copy.html', context_dict)
 
 
-def projects(request):
-    context_dict = {}
-    return render(request, 'projects.html', context_dict)
-
-
-def about(request):
-    context_dict = {}
-    return render(request, 'about.html', context_dict)
-
-
-def contact(request):
-    context_dict = {}
-    return render(request, 'contact.html', context_dict)
-
-
 def tiles(request):
     context_dict = {}
     return render(request, 'TILES.html', context_dict)
