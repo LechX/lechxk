@@ -17,7 +17,7 @@ from django.conf.urls import url
 from django.contrib import admin
 from django.conf import settings
 from django.conf.urls.static import static
-from pages.views import index, projects, about, contact, tiles, birthday, birthday_pull
+from pages.views import index, tiles, birthday, birthday_pull
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
