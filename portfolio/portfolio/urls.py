@@ -22,10 +22,10 @@ from pages.views import index, projects, about, contact, tiles, birthday, birthd
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', index, name='home'),
-    url(r'^projects/$', projects, name='projects'),
-    url(r'^about/$', about, name='about'),
-    url(r'^contact/$', contact, name='contact'),
-    url(r'^projects/TILES/', tiles, name='tiles'),
-    url(r'^projects/birthday_pi/$', birthday, name='birthday'),
+    # url(r'^projects/$', projects, name='projects'),
+    # url(r'^about/$', about, name='about'),
+    # url(r'^contact/$', contact, name='contact'),
+    url(r'^TILES/', tiles, name='tiles'),
+    url(r'^birthday_pi/$', birthday, name='birthday'),
     url(r'^projects/birthday_pi/(?P<num>[\w]+)/', birthday_pull, name='birthday_pull')
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

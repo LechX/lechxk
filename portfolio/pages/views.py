@@ -7,7 +7,7 @@ import os
 
 def index(request):
     context_dict = {}
-    return render(request, 'index.html', context_dict)
+    return render(request, 'index_copy.html', context_dict)
 
 
 def projects(request):
