@@ -24,9 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '1vt)_7s=(j^_s1@hu#$z%n=^qim9hn11lv5oost7vh0!iz+we-' # keyconfig.SECRET_KEY
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = [ '.lechxk.com', '162.243.128.163', ]
+ALLOWED_HOSTS = [ '.lechxk.com', '162.243.128.163', 'localhost']
 
 
 # Application definition
